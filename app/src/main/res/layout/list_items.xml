@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/carvview"
+    android:layout_width="@dimen/_80sdp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/folder_drawable"
+    android:foreground="?selectableItemBackground"
+    android:padding="@dimen/_2sdp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/a"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:background="@drawable/btn_red"
+        android:fontFamily="@font/mfont"
+        android:gravity="center"
+        android:text="AD"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_8sdp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_3sdp"
+        android:orientation="vertical">
+
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="@dimen/_15sdp"-->
+        <!--            android:layout_height="@dimen/_15sdp"-->
+        <!--            android:layout_alignParentRight="true"-->
+        <!--            android:layout_marginTop="@dimen/_1sdp"-->
+        <!--            android:layout_marginEnd="@dimen/_4sdp"-->
+        <!--            android:layout_marginRight="@dimen/_4sdp"-->
+        <!--            android:adjustViewBounds="true"-->
+        <!--            android:src="@drawable/ic_more_ads" />-->
+
+        <ImageView
+            android:id="@+id/rcimageview"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/mfont"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="appname"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/install"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_wa"
+            android:fontFamily="@font/mfont"
+            android:foreground="?selectableItemBackground"
+            android:padding="5dp"
+            android:text="Install"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

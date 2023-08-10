@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ExtraScreen.VhiChingariIntro">
+
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/toolclr">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="?actionBarSize"
+            android:layout_height="?actionBarSize"
+            android:adjustViewBounds="true"
+            android:foreground="?selectableItemBackground"
+            android:padding="@dimen/_9sdp"
+            android:src="@drawable/ic_back" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_toRightOf="@+id/back"
+            android:fontFamily="@font/mfont_medium"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adFrameMini"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/layout_ad_large" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/chingaritop" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/mfont_medium"
+                    android:text="Chingari Video Downloader"
+                    android:textColor="@color/startcolor"
+                    android:textSize="@dimen/_15ssp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:fontFamily="@font/mfont"
+                    android:lineSpacingExtra="@dimen/_2sdp"
+                    android:text="This All Video downloader for Chingari app is designed for you to download Status video and save photos with simple steps. You can also use it to save multiple media files in one click."
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_9ssp" />
+
+
+                <RelativeLayout
+                    android:id="@+id/txt_next"
+
+                    android:layout_width="@dimen/_270sdp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:background="@drawable/btn_all"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/textStyleSemiBold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="Next"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_14ssp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:src="@drawable/btn_next"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <include
+        layout="@layout/layout_ad_mini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

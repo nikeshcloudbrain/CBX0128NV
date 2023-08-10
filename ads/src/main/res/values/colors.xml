@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorButton">#ff2558</color>
+    <color name="colorButtonSub">#A8193B</color>
+
+    <color name="colorPrimaryLight">#CCff2558</color>
+    <color name="colorLight">#4dff2558</color>
+
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorBGNativeStart">#d7fff1</color>
+    <color name="colorBGNativeEnd">#d7fff1</color>
+
+</resources>

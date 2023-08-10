@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.allhdvideofree.downloader.videodownloader">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <queries>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.whatsapp.w4b" />
+        <package android:name="com.eterno.shortvideos" />
+        <package android:name="io.chingari.app" />
+        <package android:name="com.facebook.katana" />
+        <package android:name="com.mitron.tv" />
+        <package android:name="in.mohalla.sharechat" />
+        <package android:name="com.instagram.android" />
+        <package android:name="video.like" />
+        <package android:name="com.twitter.android" />
+
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.allhdvideofree.downloader.videodownloader.Utils.DhiApplication"
+        android:allowBackup="true"
+        android:extractNativeLibs="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HDvideoDownloader"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:networkSecurityConfig">
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.selection.DhiMusicNextActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.selection.DhiVideoNextActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.selection.DhiStoryNextActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.Allweb.DhiInstaWebActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.Allweb.DhiFbBrowserActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiWtsBusActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.ExtraScreen.DhiChingariIntro"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name="com.allhdvideofree.downloader.videodownloader.activities.DhiNextContinueActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.ExtraScreen.DhiFacebookIntro"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.ExtraScreen.DhiInstaIntro"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.ExtraScreen.DhiSharechatIntro"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.ExtraScreen.DhiTwitterIntro"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.ExtraScreen.DhiWhatsupIntro"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.selection.DhiFBSelectionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.selection.DhiInstaSelectionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.selection.DhiWtsSelectionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.HDMusicplayer.DhiMyMusicActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.DhiSkipActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.DhiAgeActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.DhiGenderActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.DhiStartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.DhiVPNActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.MyDownload.DhiChingariDownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.MyDownload.DhiShareChDownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.MyDownload.DhiTwitterDownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.MyDownload.DhiWtsappDownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.MyDownload.DhiFBDownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiFullViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.MyDownload.DhiInstaDownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiPreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiFBLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiStoryVideoPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiShareChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiTwitterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiFacebookActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiWhatsappActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiInstagramActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiChingariActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.AllVideoPlayer.DhiHDVideoListActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.allhdvideofree.downloader.videodownloader.activities.AllVideoPlayer.DhiHDVideoPlayerActivity" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.AllVideoPlayer.DhiMyDashActivitiy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.AllVideoPlayer.DhiAllVideoListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.MyDownload.DhiAllMyDownloadedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.StoryDownloader.DhiAllStoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.AllVideoPlayer.DhiAllFolderVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.selection.DhiSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.DhiSplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.allhdvideofree.downloader.videodownloader.activities.Permission.DhiPrStorageActivity"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.allhdvideofree.downloader.videodownloader.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileproviderpath" />
+        </provider>
+
+        <service
+            android:name="com.allhdvideofree.downloader.videodownloader.Utils.VPNCheckService"
+            android:enabled="true"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

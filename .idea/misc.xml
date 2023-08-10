@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/drawable/btn_tab.xml" value="0.2145" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/drawable/folder_drawable.xml" value="0.2145" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/drawable/gray_all.xml" value="0.2145" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/drawable/link_paste_bg.xml" value="0.2145" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/drawable/newlin_bg.xml" value="0.2145" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/drawable/round_white.xml" value="0.2145" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/drawable/unselected.xml" value="0.2145" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_age.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_all_folder_video.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_all_my_downloaded.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_all_story.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_all_video_list.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_ching.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_chingari_downloads.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_chingari_intro.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_dash_activitiy.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_download_insta.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_facebook_intro.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_fb_browser.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_fb_downloads.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_fbselection.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_full_view.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_gender.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_insta_intro.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_insta_selection.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_insta_web.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_instagram.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_login.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_main1.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_music_next.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_my_music.xml" value="0.33" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_newfb.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_next_continue.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_pr_storage.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_preview.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_selection.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_sharechat.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_sharechat_downloades.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_sharechat_intro.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_skip.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_splash.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_start.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_story_next.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_story_video_player.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_twitter.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_twitter_downloads.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_twitterinro.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_video_list.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_video_next.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_video_player.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_vpn.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_whats_app_downloads.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_whatsapp.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_whatsupintro.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_wts_bus.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/activity_dhi_wts_selection.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/adapter_folder.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/content_main.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/cust_music_audio.xml" value="0.33" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/cust_music_folder.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/custom_tab.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/dialog_cig_rate.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/dialog_internet.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/dialog_loader.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/dialog_notes.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/dialog_save_video.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/empty_lay.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/empty_view.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/exit_dailog.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/fragment_browser.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/item_user_list.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/item_vpn.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/items_file_view.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/items_whatsapp_view.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/layout_toolbar.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/list_item.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/list_items.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/loader_lay.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/pcheckbox.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/playback_control.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/playback_dialog.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/playlist_card.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/playlist_sheet.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/preview_list_item.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/progress_dialog.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/recent_fragment.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/row_recent.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/slidingimages_layout.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/video_list.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CBX0128NV_All Video Downloader/app/src/main/res/layout/video_tile.xml" value="0.3145833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

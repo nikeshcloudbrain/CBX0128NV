@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/Img_ML_Pause"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:padding="@dimen/_7sdp"
+                android:foreground="?selectableItemBackground"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_newplay" />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/Img_ML_Play"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:padding="@dimen/_7sdp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_newpause"
+                android:foreground="?selectableItemBackground"
+                android:visibility="gone"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/LLML_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/TVML_MusicName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxLines="1"
+                android:text="Tera yarr hu main"
+                android:fontFamily="@font/mfont"
+                android:textColor="@color/startcolor"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/TVML_MusicTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/mfont"
+                android:maxLines="1"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:text="35.mp"
+                android:textColor="@color/startcolor"
+                android:textSize="@dimen/_8ssp" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CrdML_Use"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_28sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardUseCompatPadding="false"
+            android:visibility="gone"
+            app:cardCornerRadius="@dimen/_13sdp"
+            app:cardElevation="0dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxLines="1"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="Use"
+                android:fontFamily="@font/mfont_bold"
+                android:textColor="@color/startcolor"
+                android:textSize="@dimen/_13ssp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/_2sdp"/>
+
+
+</LinearLayout>

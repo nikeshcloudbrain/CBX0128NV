@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:id="@+id/tab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_tab"
+    android:gravity="center"
+    android:padding="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    android:textSize="@dimen/_12sdp"
+    android:textStyle="bold" />

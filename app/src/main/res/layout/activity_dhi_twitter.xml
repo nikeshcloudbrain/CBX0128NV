@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StoryDownloader.VhiTwitterActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adFrameMini"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/sptxtcolor">
+
+            <ImageView
+                android:id="@+id/imBack"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:foreground="?selectableItemBackground"
+                android:padding="@dimen/_9sdp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:id="@+id/tvAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toRightOf="@id/imBack"
+                android:fontFamily="@font/mfont_medium"
+                android:text="Twitter"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imAppIcon"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_alignParentRight="true"
+                android:foreground="?selectableItemBackground"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_twitterrrr" />
+
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/layout_ad_large" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/top_twit" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:fontFamily="@font/mfont_medium"
+                    android:text="Twitter Video Downloader"
+                    android:textColor="@color/startcolor"
+                    android:textSize="@dimen/_15ssp" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:fontFamily="@font/mfont"
+                    android:lineSpacingExtra="@dimen/_2sdp"
+                    android:text="This video downloader for Twitter is designed for you to download videos from Twitter and save photos with simple steps. You can also use it to save multiple media files in one tweet."
+
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_9ssp" />
+
+                <LinearLayout
+                    android:id="@+id/lnr_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/RLEdittextLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:elevation="3dp"
+                        android:padding="10dp">
+
+                        <EditText
+                            android:id="@+id/et_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_45sdp"
+                            android:background="@drawable/link_bg"
+                            android:drawableLeft="@drawable/pastlogo"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:drawableTint="@color/white"
+                            android:fontFamily="@font/mfont_medium"
+                            android:hint="@string/paste_link"
+                            android:padding="13dp"
+                            android:singleLine="true"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="@dimen/_11ssp" />
+
+
+                        <LinearLayout
+                            android:id="@+id/RLDownloadLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/et_text"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+
+                            <!-- <androidx.appcompat.widget.AppCompatImageView
+
+
+                                    android:layout_margin="@dimen/_10sdp"
+                                    android:adjustViewBounds="true"
+                                    android:foreground="?selectableItemBackground"
+                                     />-->
+
+                            <LinearLayout
+                                android:id="@+id/img_paste"
+                                android:layout_width="@dimen/_130sdp"
+                                android:layout_height="@dimen/_45sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_15sdp"
+                                android:background="@drawable/link_paste_bg"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatImageView
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:src="@drawable/paste" />
+
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:fontFamily="@font/mfont_medium"
+                                    android:text="Paste"
+                                    android:textColor="@color/sptxtcolor"
+                                    android:textSize="@dimen/_12ssp" />
+
+
+                            </LinearLayout>
+
+
+                            <!-- <androidx.appcompat.widget.AppCompatImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="@dimen/_10sdp"
+                                    android:adjustViewBounds="true"
+                                    android:foreground="?selectableItemBackground"
+                                    />-->
+
+                            <LinearLayout
+                                android:id="@+id/login_btn1"
+
+                                android:layout_width="@dimen/_130sdp"
+                                android:layout_height="@dimen/_45sdp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/link_bg"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatImageView
+                                    android:layout_width="@dimen/_18sdp"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:src="@drawable/dw" />
+
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:fontFamily="@font/mfont_medium"
+                                    android:text="Download"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/_12ssp" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <include
+        layout="@layout/layout_ad_mini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

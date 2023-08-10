@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:fontFamily="@font/mfont_bold"
+            android:text="@string/app_name"
+            android:textColor="@color/colorMain"
+            android:textSize="@dimen/_18ssp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+  <!--  <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/topbar"
+        android:background="@color/star_gray" />-->
+
+    <include
+        android:id="@+id/includedBanner"
+        layout="@layout/layout_ad_mini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/includedBanner"
+        android:layout_below="@id/topbar"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/mfont_bold"
+                    android:text="@string/app_name"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/startcolor"
+                    android:textSize="@dimen/_15ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_6sdp"
+
+                    android:fontFamily="@font/mfont"
+                    android:lineSpacingExtra="@dimen/_2sdp"
+                    android:text="Quickly and Easily download all HD videos in all formats! Fast,
+Safe, and 100% free! HD video downloader app auto detects
+videos, you only need to click the download button. Pause,
+resume, or remove downloads as you like. Video download mate
+supports multiple downloads and background download."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_9ssp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_135sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+
+                android:src="@drawable/startbanner" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5sdp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/includedNative"
+                    layout="@layout/layout_ad_large"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_1sdp" />
+
+                <RelativeLayout
+                    android:id="@+id/btnstart"
+
+                    android:layout_width="@dimen/_270sdp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/btn_all"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_18sdp"
+                        android:src="@drawable/ic_downloader" />
+
+                    <!-- <TextView
+
+                         style="@style/textStyleSemiBold"
+                         android:layout_width="wrap_content"
+                         android:layout_height="55dp"
+                         android:layout_centerInParent="true"
+                         android:gravity="center"
+                         android:text="Continue"
+                         android:textAllCaps="true"
+                         android:textColor="@color/colorWhite"
+                         android:textSize="@dimen/_14ssp" />-->
+
+                    <LinearLayout
+                        android:id="@+id/llStart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="@dimen/_70sdp"
+
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/mfont_bold"
+                            android:gravity="center"
+                            android:text="Let's Start"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_16ssp" />
+
+                        <TextView
+                            style="@style/textStyleMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="@string/app_name"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_9ssp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:src="@drawable/btn_next" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/btnrate"
+
+                    android:layout_width="@dimen/_270sdp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/gray_all"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:src="@drawable/ic_srate"
+                        app:tint="@color/colorMain" />
+
+                    <TextView
+                        style="@style/textStyleBold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="@dimen/_58sdp"
+                        android:gravity="center"
+                        android:text="Rate Us"
+                        android:textColor="@color/startcolor"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:src="@drawable/btn_next2"
+                        app:tint="#BEBFC3" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnshare"
+
+                    android:layout_width="@dimen/_270sdp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/gray_all"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:src="@drawable/ic_sshare"
+                        app:tint="@color/colorMain"/>
+
+                    <TextView
+                        style="@style/textStyleBold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="@dimen/_58sdp"
+                        android:gravity="center"
+                        android:text="Share"
+                        android:textColor="@color/startcolor"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:src="@drawable/btn_next"
+                        app:tint="#BEBFC3"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <!--
+                        <RelativeLayout
+                            android:id="@+id/conApps"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/txtMessage"
+                                style="@style/textStyleNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="14dp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/_16ssp" />
+
+                        </RelativeLayout>
+            -->
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

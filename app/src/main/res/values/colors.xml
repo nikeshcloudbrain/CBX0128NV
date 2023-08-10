@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#ff2558</color>
+    <color name="teal_200">#ff2558</color>
+    <color name="teal_700">#ff2558</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="clrapp">#ff2558</color>
+    <color name="clrorange">#ff2558</color>
+    <color name="transparent">#00FFFF</color>
+
+    <color name="tab_txt_press">#FFFFFF</color>
+    <color name="round_btn_bg">#80000000</color>
+    <color name="toolclr">#ff2558</color>
+    <color name="colorPrimary">#ff2558</color>
+    <color name="colorAccent">#ff2558</color>
+    <color name="colorPrimaryDark">#f8861f</color>
+    <color name="tooltext">#FF000000</color>
+    <color name="dark">#ff2558</color>
+
+    <color name="sstatus">#2A6470</color>
+    <color name="colorMain">#ff2558</color>
+    <color name="status">#04AA1C</color>
+    <color name="clrgreen">#06AC1E</color>
+    <color name="colorLight">#4d00918C</color>
+
+    <color name="star_gray">#DEDEDE</color>
+    <color name="grey">#5E6575</color>
+    <color name="connect_vpn">#4BB710</color>
+    <color name="blue">#1974A3</color>
+    <color name="sptxtcolor">#ff2558</color>
+    <color name="mclr">#ff2558</color>
+    <color name="mclrr">#37C04C</color>
+    <color name="setbg">#FDB9B9</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="startcolor">#112340</color>
+</resources>

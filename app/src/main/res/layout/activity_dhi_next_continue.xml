@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#111111"
+        android:orientation="horizontal">
+
+        <!--<ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/ic_allvid" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:fontFamily="@font/mfont_bold"
+            android:text="@string/app_name"
+            android:textColor="@color/colorMain"
+            android:textSize="@dimen/_18ssp" />
+    </androidx.cardview.widget.CardView>
+
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/topbar"
+        android:background="@color/colorWhite" />-->
+
+
+
+    <!-- <include
+         android:id="@+id/includedToolbar"
+         layout="@layout/layout_toolbar" />-->
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topbar"
+        android:layout_above="@id/includedBanner"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/mfont_bold"
+                    android:text="@string/app_name"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/startcolor"
+                    android:textSize="@dimen/_15ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/mfont"
+                    android:lineSpacingExtra="@dimen/_2sdp"
+                    android:text="Quickly and Easily download all HD videos in all formats! Fast,
+Safe, and 100% free! HD video downloader app auto detects
+videos, you only need to click the download button. Pause,
+resume, or remove downloads as you like. Video download mate
+supports multiple downloads and background download."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_9ssp" />
+            </LinearLayout>
+
+           <!-- <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:src="@drawable/storyimg"
+                android:layout_margin="@dimen/_5sdp"/>-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_7sdp"
+                app:cardBackgroundColor="#FEA9BE"
+
+                app:cardElevation="@dimen/_2sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="@dimen/_10sdp"
+                        android:fontFamily="@font/mfont_bold"
+                        android:text="@string/app_name"
+                        android:textColor="@color/startcolor"
+                        android:textSize="@dimen/_15ssp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_100sdp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            >
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_vector"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:layout_margin="@dimen/_5sdp"
+                                android:fontFamily="@font/mfont_bold"
+                                android:text="Video Downloader Features"
+                                android:textColor="@color/colorMain"
+                                android:textSize="@dimen/_10ssp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+android:layout_margin="@dimen/_5sdp"
+                                android:fontFamily="@font/mfont_medium"
+                                android:text="- Super Fast Downloading Speed\n- Auto Detection Of Videos
+                            - Monitor Download Speed And Time
+                            - Friendly User-Interface\n- Share With Family And Friends"
+                                android:lineSpacingExtra="@dimen/_2sdp"
+                                android:textColor="@color/startcolor"
+                                android:textSize="@dimen/_8ssp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <include
+                layout="@layout/layout_ad_large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_gravity="center"
+                />
+
+            <RelativeLayout
+                android:id="@+id/llStart"
+
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:background="@drawable/btn_all"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/textStyleSemiBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Next"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_14ssp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:visibility="gone"
+                    android:src="@drawable/btn_next" />
+
+            </RelativeLayout>
+
+
+
+            <!--
+                        <RelativeLayout
+                            android:id="@+id/conApps"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/txtMessage"
+                                style="@style/textStyleNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="14dp"
+                                android:layout_marginTop="@dimen/_15sdp"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/_16ssp" />
+
+                        </RelativeLayout>
+            -->
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include
+        android:id="@+id/includedBanner"
+        layout="@layout/layout_ad_mini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
